@@ -61,4 +61,4 @@ if __name__ == "__main__":
     feature_df = extract_wallet_features(df)
     print(feature_df.head())
     feature_df.to_csv("wallet_features.csv", index=False)
-    print("✅ Wallet features saved to wallet_features.csv")
+    print(" Wallet features saved to wallet_features.csv")

@@ -24,7 +24,7 @@ def predict_credit_scores():
 
     # Save results
     df[['wallet_address', 'predicted_credit_score']].to_csv("predicted_wallet_scores.csv", index=False)
-    print("✅ Predicted scores saved to predicted_wallet_scores.csv")
+    print("Predicted scores saved to predicted_wallet_scores.csv")
 
 if __name__ == "__main__":
     predict_credit_scores()

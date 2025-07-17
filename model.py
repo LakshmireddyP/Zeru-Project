@@ -31,7 +31,7 @@ def train_credit_model(csv_path="wallet_features.csv", output_model="credit_mode
 
     # Save model
     joblib.dump(model, output_model)
-    print(f"✅ Model saved to {output_model}")
+    print(f" Model saved to {output_model}")
 
 if __name__ == "__main__":
     train_credit_model()

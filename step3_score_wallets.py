@@ -18,7 +18,7 @@ def add_credit_scores(input_csv="wallet_features.csv", output_csv="wallet_featur
     df = pd.read_csv(input_csv)
     df["credit_score"] = df.apply(assign_credit_score, axis=1)
     df.to_csv(output_csv, index=False)
-    print(f"✅ Added credit_score column and saved to {output_csv}")
+    print(f"Added credit_score column and saved to {output_csv}")
 
 if __name__ == "__main__":
     add_credit_scores()
