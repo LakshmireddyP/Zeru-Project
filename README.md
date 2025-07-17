@@ -47,8 +47,8 @@ These features aim to capture:
 A **RandomForestRegressor** was trained using `sklearn` to predict a credit score in the range **0–1000**. The model is saved as `credit_model.pkl`.
 
 ### Evaluation Metrics:
-- **Mean Absolute Error (MAE)**: ~low error on test set
-- **R² Score**: Strong predictive performance (check output during training)
+- **Mean Absolute Error (MAE)**: 2.49 ~low error on test set
+- **R² Score**: 0.994  Strong predictive performance (check output during training)
 
 ---
 
