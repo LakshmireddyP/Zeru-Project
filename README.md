@@ -4,7 +4,7 @@ This project implements a machine learning-based credit scoring system for walle
 
 ---
 
-## 🔍 Overview
+##  Overview
 
 Each wallet is scored based on activity patterns like deposits, borrows, repayments, and redemptions. Higher scores reflect responsible and stable behavior. Lower scores indicate bot-like, high-risk, or exploitative behavior.
 
@@ -12,7 +12,7 @@ The scoring system is trained on real wallet feature data and can process raw tr
 
 ---
 
-## 📊 Features Used
+##  Features Used
 
 We engineered the following features per wallet from DeFi transaction data:
 
@@ -42,7 +42,7 @@ These features aim to capture:
 
 ---
 
-## 🧠 Model
+##  Model
 
 A **RandomForestRegressor** was trained using `sklearn` to predict a credit score in the range **0–1000**. The model is saved as `credit_model.pkl`.
 
@@ -52,7 +52,7 @@ A **RandomForestRegressor** was trained using `sklearn` to predict a credit scor
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### Step 1: Train the model (once)
 ```bash
