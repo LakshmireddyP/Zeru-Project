@@ -11,29 +11,37 @@ This document presents an analysis of credit scores generated for wallets based 
 
 The wallets have been categorized into the following score ranges:
 
-- 0–100      -0\n
-- 101–200    -1\n
-- 201–300    -2\n
-- 301–400    -28\n
-- 401–500    -12\n
-- 501–600    -66\n
-- 601–700    -338\n
-- 701–800    -317\n
-- 801–900    -165\n
-- 901–1000   -71\n
+- 0–100      -0
+- 101–200    -1
+- 201–300    -2
+- 301–400    -28
+- 401–500    -12
+- 501–600    -66
+- 601–700    -338
+- 701–800    -317
+- 801–900    -165
+- 901–1000   -71
 
 A histogram of the distribution is plotted below:
 
                             Wallet Score Distribution
 
 101-200 |                                         (0.1%)
+
 201-300 |                                         (0.2%)
+
 301-400 | █▋                                      (2.8%)
+
 401-500 | ▋                                       (1.2%)
+
 501-600 | ████                                    (6.6%)
+
 601-700 | ████████████████████████████████████████  (33.8%)
+
 701-800 | █████████████████████████████████         (31.7%)
+
 801-900 | ████████████████                          (16.5%)
+
 901-1000| ████▍                                   (7.1%)
 
 > _The histogram illustrates the count of wallets falling into each credit score bucket._
