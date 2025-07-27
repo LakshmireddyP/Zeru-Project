@@ -33,4 +33,4 @@ if __name__ == "__main__":
     df = load_and_clean(path_to_json)
     print(df.head())
     df.to_csv("cleaned_transactions.csv", index=False)
-    print("✅ Cleaned data saved to cleaned_transactions.csv")
+    print(" Cleaned data saved to cleaned_transactions.csv")

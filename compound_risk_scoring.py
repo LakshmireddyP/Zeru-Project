@@ -108,4 +108,4 @@ df["risk_score"] = 1000 * (
 
 # Save results
 df.to_csv("wallet_risk_scores.csv", index=False)
-print("✅ Risk scores saved to wallet_risk_scores.csv")
+print(" Risk scores saved to wallet_risk_scores.csv")
